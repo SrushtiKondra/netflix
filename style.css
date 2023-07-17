@@ -1,0 +1,194 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.front {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75) , rgba(0, 0, 0.55, 0.7)),url(netbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background: url(logo.png);
+    margin: 30px 30px 30px 150px;
+    width: 150px;
+    height: 40px;
+    background-size: cover;
+}
+
+.signup{
+    display: flex;
+    height: 30px;
+    margin-right: 160px;
+
+}
+.lang{
+    border: 1px solid rgb(83, 80, 80);
+    border-radius: 5px;
+    color: white;
+    padding:5px 12px 23px 12px;
+    background-color: rgb(22, 21, 21);
+    opacity: 0.7;
+    align-items: center;
+    justify-content: center;
+}
+#signin{
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(218, 8, 8);
+    padding:5px 13px 23px 13px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.front .intro_text{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.email{
+    height:58px;
+    width:390px;
+    padding: 20px 0px 20px 10px;
+    color:white;
+    border: 1px solid rgb(154, 144, 144);
+    border-radius: 5px;
+    background-color: rgb(22, 21, 21);
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 15px;
+}
+#button{
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(218, 8, 8);
+    height:60px;
+    width:150px;
+    padding: 14.5px 25px 19px 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    border: 4px solid rgb(38, 37, 37);
+}
+.flex1{
+    padding:170px;
+    height:500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.flex2{
+    padding:200px 150px 200px 190px;
+    height:500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.flex3{
+    padding:165px;
+    height:522px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.flex4{
+    padding:170px;
+    height:500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.questions{
+    background-color: black;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    align-items: center;
+}
+.faq{
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 1030px;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.faq:hover{
+    background-color: rgb(98, 97, 97);
+    cursor: pointer;
+
+}
+
+.footer{
+    background-color: black;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    color: rgb(238, 233, 233);
+    font-size: 15px;
+
+
+}
+.contact{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    color: rgb(238, 233, 233);
+}
+
+.dlang{
+    border: 1px solid rgb(83, 80, 80);
+    border-radius: 3px;
+    color: rgb(255, 252, 252);
+    height: 20px;
+    width: 130px;
+    padding:8px 10px 28px 12px;
+    background-color: rgb(22, 21, 21);
+    opacity: 0.7;
+    align-items: center;
+    justify-content: center;
+}
+
+.hov:hover{
+    cursor: pointer;
+}
